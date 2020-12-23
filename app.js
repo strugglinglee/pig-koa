@@ -16,7 +16,7 @@ const dbOptions = {
   useUnifiedTopology: true,
 };
 
-mongoose.connect('mongodb://root:18827604626Lky@42.192.211.93:27017/words', dbOptions).then(
+mongoose.connect('mongodb://127.0.0.1:27017/words', dbOptions).then(
   () => {
     console.info('MongoDB is ready');
   },
